@@ -17,8 +17,12 @@ class Employee:
         """Destructor"""
         print("Destructor")
 
-
+#Main
 e1=Employee("Steve","Jobs",280000)
 e1.show_emp()
+
 print(e1.first," ",e1.last) # Class Memeber access
+#
+# del e1
+# e1.show_emp()
 
